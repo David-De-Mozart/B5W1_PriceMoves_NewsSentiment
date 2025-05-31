@@ -1,0 +1,38 @@
+Financial News Sentiment Analysis Report
+Generated on: 2025-05-31 21:10:19
+================================================================================
+
+1. Dataset Overview
+- Time period: 2020-01-01 to 2023-12-30
+- Total articles: 5,000
+- Unique stocks covered: 10
+- Unique publishers: 6
+
+2. Key Findings
+- Average sentiment score: 0.008
+- Sentiment distribution:
+  - Positive (>0.1): 18.8%
+  - Neutral (-0.1 to 0.1): 68.7%
+  - Negative (<-0.1): 12.5%
+
+3. Correlation Insights
+- Correlation between sentiment and stock returns:
+  - AAPL: Same-day: 0.037, Next-day: -0.010
+  - MSFT: Same-day: 0.032, Next-day: -0.037
+  - GOOGL: Same-day: 0.013, Next-day: -0.015
+  - AMZN: Same-day: 0.018, Next-day: -0.002
+  - META: Same-day: 0.008, Next-day: 0.026
+
+4. Trading Strategy Recommendations
+- For stocks with high sentiment-return correlation (>0.2):
+  - Consider sentiment as a confirming indicator for trades
+  - Enter long positions when sentiment is strongly positive
+  - Consider short positions when sentiment is strongly negative
+- For stocks with low correlation (<0.1):
+  - Sentiment may not be a reliable predictor
+  - Focus on technical indicators instead
+
+5. Limitations and Future Work
+- Current analysis uses only headlines; full article analysis may improve results
+- No sector-specific analysis performed
+- Sentiment analysis doesn't account for sarcasm or complex financial language

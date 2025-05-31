@@ -1,11 +1,17 @@
-# .gitignore
-__pycache__/
-.ipynb_checkpoints/
+# Data
+/data/
+!/data/financial_news.csv
+
+# Environment
 .env
-*.pyc
-*.pyo
-*.pyd
-*.db
-.DS_Store
-.env/
-.venv/
+venv/
+__pycache__/
+
+# Outputs
+reports/figures/*.png
+!reports/figures/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.ipynb_checkpoints/
